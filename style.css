@@ -1,0 +1,62 @@
+body {
+    color:rgb(106, 171, 255);    
+    background: rgb(224, 250, 255);
+    margin: 0px;
+    font-family: "Arimo", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(91, 148, 255);
+    padding: 15px; 
+    font-size: 20px;
+    color: rgb(91, 148, 255)
+}
+
+.chamada {
+    background: rgb(173, 204, 250);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-musicas{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.musicas{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;  
+}
+
+.categoria-musicas img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-musicas img:hover {
+    opacity: 1.0;
+    border: 1px solid orange;
+}
+
+.musicas h2 {
+    color: rgb(91, 148, 255)
+}
